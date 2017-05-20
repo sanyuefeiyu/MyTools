@@ -14,14 +14,9 @@ function build_one(){
 --disable-ffmpeg \
 --disable-ffplay \
 --disable-ffprobe \
---disable-avdevice \
---disable-avfilter \
---disable-swscale \
---disable-network \
---disable-muxers \
---disable-encoders \
---disable-decoders \
+--disable-everything \
 --enable-decoder=eac3 \
+--enable-decoder=swresample \
 --enable-cross-compile \
 --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi- \
 --target-os=linux \
