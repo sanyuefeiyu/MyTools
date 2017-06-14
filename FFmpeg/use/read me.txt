@@ -1,0 +1,8 @@
+http://www.cnblogs.com/dwdxdy/p/3240167.html
+
+ffmpeg -i Beyond-hktk.ape -acodec eac3 -f eac3 test.eac3
+
+1.分离视频音频流
+
+ffmpeg -i input_file -vcodec copy -an output_file_video　　//分离视频流
+ffmpeg -i input_file -acodec copy -vn output_file_audio　　//分离音频流
