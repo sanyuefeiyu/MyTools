@@ -1,7 +1,8 @@
-set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+
+set nocompatible
 
 "显示行号
 set number
