@@ -24,7 +24,7 @@ set ruler
 set cursorline
 
 set backupext=.bak
-set backupdir=~/backupfile
+set backupdir=C:/vim_backup
 
 set diffexpr=MyDiff()
 function MyDiff()
