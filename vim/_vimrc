@@ -25,6 +25,7 @@ set cursorline
 
 set backupext=.bak
 set backupdir=C:/vim_backup
+set noundofile
 
 " 解决文件内内容显示乱码
 set encoding=utf-8
