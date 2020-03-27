@@ -1,5 +1,5 @@
 Visual Studio IntelliCode：智能代码提示；
 
-C/C++：；
+C/C++：安装插件，里面自带了clang-format插件，用于格式化代码，需要将.clang-format放到工程的根目录，即可；
 
 prettier-code formatter：代码格式化，win下快捷键为shift+alt+F，JS
