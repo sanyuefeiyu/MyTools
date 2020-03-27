@@ -1,0 +1,5 @@
+Visual Studio IntelliCode：智能代码提示；
+
+C/C++：；
+
+prettier-code formatter：代码格式化，win下快捷键为shift+alt+F，JS

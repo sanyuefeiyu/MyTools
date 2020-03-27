@@ -1,0 +1,9 @@
+{
+    // "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "editor.rulers": [ 120 ],
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorCustomizations": {
+        "editor.background": "#C7EDCC",
+    },
+}
