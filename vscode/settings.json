@@ -1,7 +1,11 @@
 {
     "editor.formatOnSave": true,
     "editor.fontSize": 16,
-    "editor.rulers": [ 120 ],
+    "editor.rulers": [
+        120
+    ],
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.colorCustomizations": {
         "editor.background": "#C7EDCC",
