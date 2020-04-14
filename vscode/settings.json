@@ -1,5 +1,5 @@
 {
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.fontSize": 16,
     "editor.rulers": [
         120
