@@ -10,4 +10,5 @@
     "workbench.colorCustomizations": {
         "editor.background": "#C7EDCC",
     },
+    "workbench.tree.indent": 20
 }
