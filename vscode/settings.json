@@ -1,11 +1,146 @@
 {
     // "editor.formatOnSave": true,
-    "editor.fontSize": 16,
-    "editor.rulers": [
-        120
-    ],
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all",
+
+    //-------- 编辑器配置 --------
+
+    // 控制字体系列
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+    // 控制字体大小
+    "editor.fontSize": 14,
+
+    // 控制行高
+    "editor.lineHeight": 0,
+
+    // 控制行号的可见性
+    "editor.lineNumbers": true,
+
+    // 控制字形边距的可见性
+    "editor.glyphMargin": false,
+
+    // 显示垂直标尺的列
+    "editor.rulers": [120],
+
+    // 执行文字相关的导航或操作时将用作文字分隔符的字符
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+
+    // 一个制表符等于的空格数
+    "editor.tabSize": 4,
+
+    // 按 "Tab" 时插入空格
+    "editor.insertSpaces": true,
+
+    // 当打开文件时，将基于文件内容检测 "editor.tabSize" 和 "editor.insertSpaces"
+    "editor.detectIndentation": true,
+
+    // 控制选取范围是否有圆角
+    "editor.roundedSelection": true,
+
+    // 控制编辑器是否可以滚动到最后一行之后
+    "editor.scrollBeyondLastLine": true,
+
+    // 控制换行的行的缩进。可以是"none"、 "same" 或 "indent"
+    "editor.wrappingIndent": "same",
+
+    // 要对鼠标滚轮滚动事件的 "deltaX" 和 "deltaY" 使用的乘数
+    "editor.mouseWheelScrollSensitivity": 1,
+
+    // 控制键入时是否应显示快速建议
+    "editor.quickSuggestions": true,
+
+    // 控制延迟多少毫秒后将显示快速建议
+    "editor.quickSuggestionsDelay": 10,
+
+    // 控制编辑器是否应该在左括号后自动插入右括号
+    "editor.autoClosingBrackets": true,
+
+    // 控制编辑器是否应在键入后自动设置行的格式
+    "editor.formatOnType": false,
+
+    // 控制键入触发器字符时是否应自动显示建议
+    "editor.suggestOnTriggerCharacters": true,
+
+    // 控制除了 "Tab" 以外，是否还应在 "Enter" 时接受建议。帮助避免“插入新行”或“接受建议”之间的歧义
+    "editor.acceptSuggestionOnEnter": true,
+
+    // 控制编辑器是否应突出显示选项的近似匹配
+    "editor.selectionHighlight": true,
+
+    // 控制光标闪烁动画，接受的值为'blink'、'visible' 和 'hidden'
+    "editor.cursorBlinking": "blink",
+
+    // 控制光标样式，接受的值为 'block' 和 'line'
+    "editor.cursorStyle": "line",
+
+    // 启用字体连字
+    "editor.fontLigatures": false,
+
+    // 控制光标是否应隐藏在概述标尺中。
+    "editor.hideCursorInOverviewRuler": false,
+
+    // 控制编辑器是否应呈现空白字符
+    "editor.renderWhitespace": true,
+
+    // 控制编辑器是否启用代码折叠功能
+    "editor.folding": true,
+
+    // 在制表位后插入和删除空格
+    "editor.useTabStops": true,
+
+    // 删除尾随自动插入的空格
+    "editor.trimAutoWhitespace": true,
+
+    // Keep peek editors open even when double clicking their content or when hitting Escape
+    "editor.stablePeek": false,
+
+    // 控制 Diff 编辑器以并排或内联形式显示差异
+    "diffEditor.renderSideBySide": true,
+
+    // 控制差异编辑器是否将对前导空格或尾随空格的更改显示为差异
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    //-------- 窗口配置 --------
+
+    // 启用后，将在新窗口中打开文件，而不是重复使用现有实例
+    "window.openFilesInNewWindow": "on",
+
+    // 调整窗口的缩放级别。原始大小是 0，每次递增(例如 1)或递减(例如 -1)表示放大或缩小 20%。也可以输入小数以便以更精细的粒度调整缩放级别
+    "window.zoomLevel": 0,
+
+    //-------- 文件配置 --------
+
+    // 配置 glob 模式以排除文件和文件夹。
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true
+    },
+
+    // 配置语言的文件关联(如: "*.extension": "html")。这些关联的优先级高于已安装语言的默认关联。
+    // "files.associations": {},
+
+    // 读取和编写文件时将使用的默认字符集编码。
+    // "files.encoding": "utf8",
+
+    // 默认行尾字符。
+    // "files.eol": "\r\n",
+
+    // 启用后，将在保存文件时剪裁尾随空格。
+    "files.trimTrailingWhitespace": true,
+
+    // 控制已更新文件的自动保存。接受的值:“off”、“afterDelay”、“onFocusChange”。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
+    "files.autoSave": "off",
+
+    // 控制延迟(以秒为单位)，在该延迟后将自动保存更新后的文件。仅在 "files.autoSave" 设置为“afterDelay”时适用。
+    "files.autoSaveDelay": 1000,
+
+    // 配置文件路径的 glob 模式以从文件监视排除。更改此设置要求重启。如果在启动时遇到 Code 消耗大量 CPU 时间，则可以排除大型文件夹以减少初始加载。
+    "files.watcherExclude": {
+        "**/.git/objects/**": true
+    },
+
+    //-------- 工作区配置 --------
+
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.colorCustomizations": {
         "editor.background": "#C7EDCC",
