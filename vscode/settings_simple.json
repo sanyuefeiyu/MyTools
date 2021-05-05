@@ -1,0 +1,40 @@
+{
+    // "editor.formatOnSave": true,
+
+    //-------- 编辑器配置 --------
+
+    // 控制字体大小
+    "editor.fontSize": 16,
+    // 控制行号的可见性
+    "editor.lineNumbers": "on",
+    // 显示垂直标尺的列
+    "editor.rulers": [120],
+    // 控制编辑器是否应呈现空白字符
+    "editor.renderWhitespace": "all",
+
+    // 按 "Tab" 时插入空格
+    "editor.insertSpaces": true,
+    // 一个制表符等于的空格数
+    "editor.tabSize": 4,
+    // 控制换行的行的缩进。可以是"none"、 "same" 或 "indent"
+    "editor.wrappingIndent": "same",
+
+    //-------- 文件配置 --------
+
+    // 配置 glob 模式以排除文件和文件夹。
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true
+    },
+
+    // 启用后，将在保存文件时剪裁尾随空格。
+    "files.trimTrailingWhitespace": true,
+
+    //-------- 工作区配置 --------
+
+    // 隐藏右边的预览功能
+    "editor.minimap.enabled":false,
+
+    "workbench.tree.indent": 20
+}
